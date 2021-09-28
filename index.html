@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="./imgs/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StyleZone- Fashion E-store</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="" href="./style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="navigation">
+        <nav class="navbar navbar-expand-lg ">
+            <a class="navbar-brand" href="#"><img src="./imgs/nav-logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" style="width: 500px;"  type="search" placeholder="Search" aria-label="Search">
+                <i class="fas fa-search"></i>
+              </form>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+              <ul class="navbar-nav mr-auto">
+               
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-user-circle"></i>
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#"><p style="font-size: 18px;">Hi, Lina</p></a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Edit Profile</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">My Orders</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-bell"></i>
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#"><i class="fas fa-phone"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#"><i class="fas fa-sign-out-alt"></i></a>
+                </li>
+              </ul>
+              
+            </div>
+          </nav>
+    </div>
+    <div class="maincontent">
+      <div class="category">
+       <h4 style="margin-top: 3vh; text-align: center;">Categories</h4>
+       <div style="width: 80%; margin-left: 10%; margin-top: 2vh;">
+        <h5>Clothing <i class="fas fa-tshirt"></i></h5>
+        <hr style="background-color: white;">
+        <div class="catbox" id="one">
+          <h6>Men Clothing</h6>
+        </div>
+        <br>
+        <div class="catbox" id="two">
+          <h6>Women Clothing</h6>
+        </div>
+        <br>
+        <div class="catbox" id="three">
+          <h6>Kids Clothing</h6>
+        </div>
+        <br>
+        <h5>Accessories <i class="fab fa-redhat"></i></h5>
+        <hr style="background-color: white;">
+        <div class="catbox" id="four">
+          <h6>Men Accessories</h6>
+        </div>
+        <br>
+        <div class="catbox" id="five">
+          <h6>Women Accessories</h6>
+        </div>
+        <br>
+        <div class="catbox" id="six">
+          <h6>Kids Accessories</h6>
+        </div>
+        <br>
+        <h5>Footwear <i class="fas fa-shoe-prints"></i></h5>
+        <hr style="background-color: white;">
+        <div class="catbox" id="seven">
+          <h6>Men Footwear</h6>
+        </div>
+        <br>
+        <div class="catbox" id="eight">
+          <h6>Women Footwear</h6>
+        </div>
+        <br>
+        <div class="catbox" id="nine">
+          <h6>Kids Footwear</h6>
+        </div>
+        <br>
+       </div>
+      </div>
+      <div class="products">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="./imgs/c1.png" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./imgs/c2.png" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./imgs/c3.png" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./imgs/c4.png" alt="Fourth slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <br>
+        <h2 style="text-align: center;">TRENDING PRODUCTS</h2>
+        <br>
+        <div class="row">
+          <div class="col">
+            <div class="product-item">
+              <img src="./imgs/p1.png" alt="p1">
+              <h6><b>Women Purple Solid Cinched Waist Top</b></h6>
+              <div style="display: flex;">
+                <div style="margin-left: 5%;"><p>Rs. 800</p></div>
+                <div><button class="buybtn">Buy Now</button></div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="product-item">
+              <img src="./imgs/p2.png" alt="p2">
+              <h6><b>Men Yellow Printed Round Neck T-Shirt</b></h6>
+              <div style="display: flex;">
+                <div style="margin-left: 5%;"><p>Rs. 699</p></div>
+                <div><button class="buybtn">Buy Now</button></div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="product-item">
+              <img src="./imgs/p3.png" alt="p3">
+              <h6><b>Boys Grey & Black Colourblocked Hood T-shirt</b></h6>
+              <div style="display: flex;">
+                <div style="margin-left: 5%;"><p>Rs. 350</p></div>
+                <div><button class="buybtn">Buy Now</button></div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="product-item">
+              <img src="./imgs/p4.png" alt="p4">
+              <h6><b>Girls Peach-Coloured Fit and Flare Dress</b></h6>
+              <div style="display: flex;">
+                <div style="margin-left: 5%;"><p>Rs. 780</p></div>
+                <div><button class="buybtn">Buy Now</button></div>
+              </div>
+            </div>
+          </div>
+          <div class="w-100"></div>
+          <br><br>
+          <div class="col">
+            <div class="product-item">
+              <img src="./imgs/p5.png" alt="p1">
+              <h6><b>Rose Gold-Toned Floral Stone-Studded Bracelet</b></h6>
+              <div style="display: flex;">
+                <div style="margin-left: 5%;"><p>Rs. 320</p></div>
+                <div><button class="buybtn">Buy Now</button></div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="product-item">
+              <img src="./imgs/p6.png" alt="p1">
+              <h6><b>Men Black Analogue-Digital Watch G339</b></h6>
+              <div style="display: flex;">
+                <div style="margin-left: 5%;"><p>Rs. 6500</p></div>
+                <div><button class="buybtn">Buy Now</button></div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="product-item">
+              <img src="./imgs/p7.png" alt="p1">
+              <h6><b>Kids Pack Of 3 Printed 2-Ply Reusable Cotton Cloth Masks</b></h6>
+              <div style="display: flex;">
+                <div style="margin-left: 5%;"><p>Rs. 300</p></div>
+                <div><button class="buybtn">Buy Now</button></div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="product-item">
+              <img src="./imgs/p8.png" alt="p1">
+              <h6><b>Girls Blue & Sea Green Printed Baseball Cap</b></h6>
+              <div style="display: flex;">
+                <div style="margin-left: 5%;"><p>Rs. 450</p></div>
+                <div><button class="buybtn">Buy Now</button></div>
+              </div>
+            </div>
+        </div>
+        <div class="w-100"></div>
+          <br><br>
+          <div class="col">
+            <div class="product-item">
+              <img src="./imgs/p9.png" alt="p1">
+              <h6><b>Women Peach-Coloured Printed Pumps</b></h6>
+              <div style="display: flex;">
+                <div style="margin-left: 5%;"><p>Rs. 999</p></div>
+                <div><button class="buybtn">Buy Now</button></div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="product-item">
+              <img src="./imgs/p10.png" alt="p1">
+              <h6><b>Men Black & Red IGNITE Dual NM Running Shoes</b></h6>
+              <div style="display: flex;">
+                <div style="margin-left: 5%;"><p>Rs. 3800</p></div>
+                <div><button class="buybtn">Buy Now</button></div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="product-item">
+              <img src="./imgs/p11.png" alt="p1">
+              <h6><b>Kids Blue Textile Walking Shoes</b></h6>
+              <div style="display: flex;">
+                <div style="margin-left: 5%;"><p>Rs. 1600</p></div>
+                <div><button class="buybtn">Buy Now</button></div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="product-item">
+              <img src="./imgs/p12.png" alt="p1">
+              <h6><b>Girls Black Solid Pumps</b></h6>
+              <div style="display: flex;">
+                <div style="margin-left: 5%;"><p>Rs. 650</p></div>
+                <div><button class="buybtn">Buy Now</button></div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!--  -->
+    <div class="footer">
+      <div class="footer1">
+         <div class="f1item">
+             <img src="./imgs/footericons/secure.png" alt="f11img"/>
+             <p><b>100% SECURE PAYMENT</b></p>
+             <p style="font-size: 0.9rem; color:grey">Moving Your card details to a much more <br/>secured place.</p>
+         </div>
+         <div class="f1item">
+             <img src="./imgs/footericons/trust.png" alt="f12img"/>
+             <p><b>TRUSTPAY</b></p>
+             <p style="font-size: 0.9rem; color:grey">100% Payment Protection.<br/>Easy Return Policy</p>
+         </div>
+         <div class="f1item">
+             <img src="./imgs/footericons/help.png" alt="f13img"/>
+             <p><b>HELP CENTER</b></p>
+             <p style="font-size: 0.9rem; color:grey">Got a question? Look No further. <br/>Browse on FAQs or submit your query here.</p>
+         </div>
+         <div class="f1item">
+             <img src="./imgs/footericons/app.png" alt="f14img"/>
+             <p><b>SHOP ON THE GO</b></p>
+             <p style="font-size: 0.9rem; color:grey">Download the and get exciting app<br/> only offers at your fingertip.</p>
+         </div>
+      </div>
+      <div class="footer2">
+         <div class="f2item">
+         <p style="font-size: 18px;"><b>POLICY INFO</b></p>
+         <br/>
+          <p class="footlink">Privacy Policy</p><br/>
+          <p class="footlink">Terms of Sale</p><br/>
+          <p class="footlink">Terms of Use</p><br/>
+          <p class="footlink">Report Abuse and Takedown Policy</p><br/>
+         </div>
+         <div class="f2item">
+         <p style="font-size: 18px;"><b>CONNECT</b></p>
+         <br/>
+          <p class="footlink"><img src="./imgs/footericons/fb.png" alt="fb"/> Facebook</p><br/>
+          <p class="footlink"><img src="./imgs/footericons/twitter.png" alt="twi"/> Twitter</p><br/>
+          <p class="footlink"> <img src="./imgs/footericons/yt.png" alt="yt"/> Youtube</p><br/>
+          <p class="footlink"><img src="./imgs/footericons/insta.jpg" alt="ins"/> Instagram</p><br/>
+         </div>
+         <div class="f2item">
+         <p style="font-size: 18px;"><b>SUBSCRIBE</b></p>
+         <br/>
+         <input placeholder="Your email address"/><button>Subscribe</button>
+         <br/><br/>
+         <div class="f2cont"><p>Need help?&nbsp; <i class="fas fa-phone-alt" style="color: black;"></i>&nbsp; Call us 24/7 at <span style="color: black;">+91-92126 92126</span></p></div>
+         </div>
+      </div>
+      <footer style="text-align:center; padding:6px; padding-top: 14px; background-color:lightgrey">
+          <p><i class="far fa-copyright"></i> Copyright 2021, StyleZone Co In. All rights Reserved</p>
+      </footer> 
+  </div>
+    <!--  -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

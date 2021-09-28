@@ -1,0 +1,175 @@
+.navbar{
+    background: linear-gradient(to right,#d4af37,#f9f095,#d4af37,#f9f095,#d4af37);;
+}
+.form-control{
+    border-radius: 40px;
+    margin-left: 20vw;   
+}
+.navbar-collapse{
+    margin-left: 10vw;
+}
+.navbar-brand img{
+    height: 6vh;
+    width: 10vw;
+}
+.products{
+    width: 85%;
+    margin-bottom: 6vh;
+}
+.category{
+    width: 15%;
+    height: auto;
+    background-color: rgb(14, 12, 12);
+    color: white;
+}
+.maincontent{
+    width: 100%;
+    display: flex;
+}
+.fa-search{
+    margin-left: -45px;
+}
+.nav-link{
+    color: black;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.carousel{
+    height: 50vh;
+}
+.carousel-item img{
+    height: 50vh;
+    width:auto;
+}
+.product-item{
+    width:90%;
+    height: 46vh;
+    margin-left: 5%;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.5);
+}
+.product-item img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:10px;
+    padding-bottom:10px;
+    height: auto;
+    max-height: 35vh;
+    width: auto;
+    max-width: 98%;
+    border-radius: 10px;
+}
+.product-item h6{
+    margin-left: 5%;
+}
+.buybtn{
+    width: 100px;
+    font-size: 14px;
+    background-color: black;
+    color:white;
+    border-radius: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border:none;
+    margin-left: 90px;
+}
+.buybtn:hover {
+    background: linear-gradient(to right,#d4af37,#f9f095,#d4af37);
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .catbox{
+      width: 100%;
+      height: 18vh;
+      border-radius: 10px;
+      border: 5px solid white;
+      background-size: 100% 100%;
+  }
+  .catbox h6{ 
+    color: white; margin-top: 7vh; text-align: center; font-weight: bold;
+  }
+  .catbox:hover{
+      cursor: pointer;
+      text-decoration: underline;
+  }
+  #one{background: url('./imgs/mencloth.jpg');  background-size: 100% 100%;}
+  #two{background: url('./imgs/womencloth.jpg');  background-size: 100% 100%;}
+  #three{background: url('./imgs/kids.jpg');  background-size: 100% 100%;}
+  #four{background: url('./imgs/menacc.jpg');  background-size: 100% 100%;}
+  #five{background: url('./imgs/womenacc.jpg');  background-size: 100% 100%;}
+  #six{background: url('./imgs/kidsacc.jpg');  background-size: 100% 100%;}
+  #seven{background: url('./imgs/menshoe.jpg');  background-size: 100% 100%;}
+  #eight{background: url('./imgs/womenshoe.jpg');  background-size: 100% 100%;}
+  #nine{background: url('./imgs/kidsshoes.jpg');  background-size: 100% 100%;}
+
+  /*  */
+  .footer1{
+    z-index: 5;
+    border-top: 5px solid grey;
+    border-bottom: 5px solid grey;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+.f1item{
+    width: 24.7vw;
+    border-left: 2px solid lightgray;
+    border-right: 2px solid lightgray;
+    height: auto;
+    padding-top: 3vh;
+    padding-bottom: 2.5vh;
+}
+.footer2{
+    width: 80%;
+    margin-left: 10%;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+}
+.f2item{
+    width: 26vw;
+    margin-top: 2vh;
+}
+.f2item p{
+    font-size: 16px;
+}
+.footlink{
+    font-size: 16px;
+    color:grey;
+}
+.footlink:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.f2item input{
+    width: 70%;
+    padding-left: 8px;
+    height: 40px;
+}
+.f2item button{
+    color: white;
+    background-color: rgb(37, 33, 33);
+    width: 25%;
+    height: 40px;
+    border: none;
+    font-size: 16px;
+}
+.f2item button:hover{
+    cursor: pointer;
+}
+.f2cont{
+    height: auto;
+    width: 100%;
+    color: rgb(82, 77, 77);
+    background-color: lightgray;
+    padding-top:5px ;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    margin-bottom: 2vh;
+}
